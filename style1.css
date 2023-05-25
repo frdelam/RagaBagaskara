@@ -1,0 +1,30 @@
+body{background-color:rgb(38, 42, 46);}
+h1{font-family:serif;font-size: 50px; color:  rgb(224, 247, 252);}
+hr{
+    border: 0;width: 100%;color: rgb(255, 216, 216);height: 5px;}
+
+.progress-bar {
+        height: 8px;
+        background: slateblue;
+        width: 0%;
+      }
+        
+.row {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+.column {
+          flex: 50%;
+          max-width: 50%;
+          padding: 0 4px;
+        }
+        
+.column img {
+          margin-top: auto;
+          vertical-align: auto;
+          width: 200%;
+        }
+        
